@@ -119,7 +119,7 @@ void setup()
   Serial.begin(9600);
 
   // Initialize with log level and log output.
-  Log.begin(LOG_LEVEL_TRACE, &Serial);
+  Log.begin(LOG_LEVEL_ERROR, &Serial);
 
   Log.infoln("Connecting to WIFI...");
 
